@@ -1,0 +1,23 @@
+
+<suite name="All Test Suite">
+
+    <test name="ChromeTestingAdd">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="width" value="1680"/>
+        <parameter name="height" value="1050"/>
+        <classes>
+
+        </classes>
+    </test>
+
+    <test name="FirefoxTestingAdd">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="width" value="1680"/>
+        <parameter name="height" value="1050"/>
+        <classes>
+
+        </classes>
+    </test>
+
+
+</suite>
