@@ -1,3 +1,4 @@
+
 package Company;
 
 import org.testng.annotations.*;
@@ -20,13 +21,13 @@ public class VerifyWebsites extends SuiteConnection {
     }
 
     /**
-     * Create a website list to store all the websites present in UI
-     * add all of them
-     * Assert method for verify websites
+     * Create a website list to store all the websites present in UI add all of them Assert method
+     * for verify websites
      */
     @Test
     public void verifyWebsites() {
-        IntStream.rangeClosed(startValue, endValue).forEach(i -> website.add(driver.findElement(selectors.websitesColumnData(i)).getText()));
-            check.assertTrue(website, "Not Matched");
+        IntStream.rangeClosed(startValue, endValue)
+                .forEach(i -> website.add(driver.findElement(selectors.websitesColumnData(i)).getText()));
+        check.assertTrue(website, "Not Matched");
     }
 }

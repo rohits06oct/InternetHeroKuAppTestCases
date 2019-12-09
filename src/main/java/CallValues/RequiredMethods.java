@@ -1,3 +1,4 @@
+
 package CallValues;
 
 import org.apache.http.HttpResponse;
@@ -10,9 +11,8 @@ public class RequiredMethods {
     private static boolean imageLoaded;
 
     /**
-     * Get imgElement one by one
-     * verifying response code HttpStatus should be 200 if not,
-     * if any image not load properly then imageLoaded is false
+     * Get imgElement one by one verifying response code HttpStatus should be 200 if not, if any
+     * image not load properly then imageLoaded is false
      */
     public static void verifyImageActive(WebElement imgElement) {
         try {

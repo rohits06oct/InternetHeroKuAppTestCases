@@ -1,3 +1,4 @@
+
 package CallValues;
 
 import org.openqa.selenium.WebElement;
@@ -9,11 +10,12 @@ public class Assert extends org.testng.Assert {
     private static String websiteRegex = "http://[w]*.[a-z]*.com";
 
     /**
-     * Assert method for check Add  Delete button
+     * Assert method for check Add Delete button
      */
     public static void assertEquals(List<WebElement> buttonElement, int expButton, String errorMessage) {
         if (buttonElement.size() != expButton) {
-            throw new AssertionError(errorMessage + "--> \nExpected button is: " + expButton + " \nActual button is: " + buttonElement.size());
+            throw new AssertionError(
+                    errorMessage + "--> \nExpected button is: " + expButton + " \nActual button is: " + buttonElement.size());
         } else {
             System.out.println("Expected button is: " + expButton + " \nActual button is: " + buttonElement.size());
         }
@@ -42,13 +44,13 @@ public class Assert extends org.testng.Assert {
     }
 
     /**
-     * Assert method for verify websites
-     * for each loop verify all the websites by regex
+     * Assert method for verify websites for each loop verify all the websites by regex
      */
     public static void assertTrue(List<String> actualWebsite, String errorMessage) {
         for (String verify : actualWebsite) {
             if (!verify.matches(websiteRegex)) {
-                throw new AssertionError(errorMessage + "--> \nExpected data is:" + websiteRegex + " \nActual data is: " + verify);
+                throw new AssertionError(
+                        errorMessage + "--> \nExpected data is:" + websiteRegex + " \nActual data is: " + verify);
             } else {
                 System.out.println("This Website is " + verify + " matches with " + websiteRegex);
             }
@@ -65,7 +67,8 @@ public class Assert extends org.testng.Assert {
             Object actualName = actIt.next();
             Object expectedName = expIt.next();
             if (!actualName.equals(expectedName)) {
-                throw new AssertionError(errorMessage + "-->\n" + "Expected name is: " + expectedName + " \nActual name is: " + actualName);
+                throw new AssertionError(
+                        errorMessage + "-->\n" + "Expected name is: " + expectedName + " \nActual name is: " + actualName);
             } else {
                 System.out.println("Expected name -> " + expectedName + " is equal to Actual name -> " + actualName);
             }

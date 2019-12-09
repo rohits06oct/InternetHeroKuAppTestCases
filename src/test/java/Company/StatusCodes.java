@@ -1,3 +1,4 @@
+
 package Company;
 
 import org.testng.annotations.*;
@@ -13,8 +14,7 @@ public class StatusCodes extends SuiteConnection {
     private static String url = "http://the-internet.herokuapp.com/";
 
     /**
-     * click on Status codes link
-     * Connect with HttpConnection to get the backend code response
+     * click on Status codes link Connect with HttpConnection to get the backend code response
      */
     @BeforeMethod
     public void clickOnStatusCodes() {
@@ -29,8 +29,7 @@ public class StatusCodes extends SuiteConnection {
     }
 
     /**
-     * Click on 200 link
-     * verified the backend response to 200
+     * Click on 200 link verified the backend response to 200
      */
     @Test
     public void checkStatusCode200() {
@@ -39,8 +38,7 @@ public class StatusCodes extends SuiteConnection {
     }
 
     /**
-     * Click on 301 link
-     * verified the backend response to 200
+     * Click on 301 link verified the backend response to 200
      */
     @Test
     public void checkStatusCode301() {
@@ -49,8 +47,7 @@ public class StatusCodes extends SuiteConnection {
     }
 
     /**
-     * Click on 404 link
-     * verified the backend response to 200
+     * Click on 404 link verified the backend response to 200
      */
     @Test
     public void checkStatusCode404() {
@@ -59,8 +56,7 @@ public class StatusCodes extends SuiteConnection {
     }
 
     /**
-     * Click on 500 link
-     * verified the backend response to 200
+     * Click on 500 link verified the backend response to 200
      */
     @Test
     public void checkStatusCode500() {

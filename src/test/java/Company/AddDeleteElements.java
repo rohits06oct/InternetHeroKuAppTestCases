@@ -1,3 +1,4 @@
+
 package Company;
 
 import org.testng.annotations.*;
@@ -16,8 +17,7 @@ public class AddDeleteElements extends SuiteConnection {
     }
 
     /**
-     * Click on add button 10 times
-     * Verified all the 10 Button display or not
+     * Click on add button 10 times Verified all the 10 Button display or not
      */
     @Test
     public void addButton() {

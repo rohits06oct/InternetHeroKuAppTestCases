@@ -1,3 +1,4 @@
+
 package CallValues;
 
 import org.w3c.dom.Document;
@@ -7,7 +8,6 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.*;
 import java.io.File;
-
 
 public class XmlParameters {
 
@@ -22,13 +22,13 @@ public class XmlParameters {
         System.out.println("main starts");
         readXml();
         String data = readXMLValue(0);
-        String data1=readXMLValue(3);
+        String data1 = readXMLValue(3);
         System.out.println(data);
         System.out.println(data1);
     }
 
     public static void readXml() {
-        try{
+        try {
             File inputFile = new File("testng.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -46,18 +46,18 @@ public class XmlParameters {
         browser = element.getAttribute("value");
         return browser;
     }
-//    public static String readXMLValue() {
-//        nNode = nList.item(1);
-//        element = (Element) nNode;
-//        width = element.getAttribute("value");
-//        System.out.println(width);
-//        return width;
-//    }
-//    public static String xmlValueHeight() {
-//            nNode = nList.item(2);
-//            element = (Element) nNode;
-//            height = element.getAttribute("value");
-//            System.out.println(height);
-//            return height;
-//    }
+    // public static String readXMLValue() {
+    // nNode = nList.item(1);
+    // element = (Element) nNode;
+    // width = element.getAttribute("value");
+    // System.out.println(width);
+    // return width;
+    // }
+    // public static String xmlValueHeight() {
+    // nNode = nList.item(2);
+    // element = (Element) nNode;
+    // height = element.getAttribute("value");
+    // System.out.println(height);
+    // return height;
+    // }
 }

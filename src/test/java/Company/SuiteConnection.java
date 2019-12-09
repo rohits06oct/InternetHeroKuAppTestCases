@@ -1,3 +1,4 @@
+
 package Company;
 
 import CallValues.RequiredMethods;
@@ -19,10 +20,8 @@ public class SuiteConnection {
     RequiredMethods methods;
 
     /**
-     * Driver Got connected with Chrome
-     * open the url
-     * Set the resolution of browser
-     * get all the cssSelectors object inside "selectors"
+     * Driver Got connected with Chrome open the url Set the resolution of browser get all the
+     * cssSelectors object inside "selectors"
      */
     @BeforeSuite
     public void connection() {

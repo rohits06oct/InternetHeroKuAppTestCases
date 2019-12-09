@@ -1,3 +1,4 @@
+
 package Company;
 
 import org.openqa.selenium.By;
@@ -18,9 +19,8 @@ public class BrokenImages extends SuiteConnection {
     }
 
     /**
-     * get all the images object inside imagesElement
-     * By using for each loop we send imagesElement object inside imgElement
-     * verify imageLoaded is true.
+     * get all the images object inside imagesElement By using for each loop we send imagesElement
+     * object inside imgElement verify imageLoaded is true.
      */
     @Test
     public void brokenImages() {

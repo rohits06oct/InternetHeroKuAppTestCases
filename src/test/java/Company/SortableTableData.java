@@ -1,3 +1,4 @@
+
 package Company;
 
 import org.testng.annotations.*;
@@ -21,16 +22,17 @@ public class SortableTableData extends SuiteConnection {
     }
 
     /**
-     * get all the last name column data inside lastNameWithoutClick list
-     * after that click on last name column to get the sortable data
-     * and store inside lastNameWithClick list and verify both of them
-     * Assert both the lastNameWithClick and lastNameWithClick
+     * get all the last name column data inside lastNameWithoutClick list after that click on last
+     * name column to get the sortable data and store inside lastNameWithClick list and verify both
+     * of them Assert both the lastNameWithClick and lastNameWithClick
      */
     @Test
     public void checkOnLastNameColumn() {
-        IntStream.rangeClosed(startValue, endValue).forEach(i -> lastNameWithOutClick.add(driver.findElement(selectors.lastNameColumnData(i)).getText()));
+        IntStream.rangeClosed(startValue, endValue)
+                .forEach(i -> lastNameWithOutClick.add(driver.findElement(selectors.lastNameColumnData(i)).getText()));
         driver.findElement(selectors.clickOnLastNameColumn).click();
-        IntStream.rangeClosed(startValue, endValue).forEach(i -> lastNameWithClick.add(driver.findElement(selectors.lastNameColumnData(i)).getText()));
+        IntStream.rangeClosed(startValue, endValue)
+                .forEach(i -> lastNameWithClick.add(driver.findElement(selectors.lastNameColumnData(i)).getText()));
         check.assertElementListEquals(lastNameWithClick, lastNameWithOutClick, "Both the names not match");
     }
 }
