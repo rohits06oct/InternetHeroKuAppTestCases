@@ -24,8 +24,8 @@ public class Assert extends org.testng.Assert {
     /**
      * Assert method for check Images are loaded properly or not
      */
-    public static void assertTrue(boolean expectedImage, String errorMessage) {
-        if (expectedImage != true) {
+    public static void assertFalse(boolean expectedImage, String errorMessage) {
+        if (expectedImage != false) {
             throw new AssertionError(errorMessage + " \n" + expectedImage);
         } else {
             System.out.println("All the images loaded properly");

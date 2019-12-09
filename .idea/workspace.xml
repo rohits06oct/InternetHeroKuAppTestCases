@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d68d7f-d6b5-4602-bd6c-d7235e543dca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CallValues/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CallValues/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CallValues/RequiredMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CallValues/RequiredMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CallValues/XmlParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CallValues/XmlParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Company/AddDeleteElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Company/AddDeleteElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Company/BrokenImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Company/BrokenImages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Company/InternetHeroKuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Company/InternetHeroKuApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Company/SortableTableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Company/SortableTableData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Company/StatusCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Company/StatusCodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Company/SuiteConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Company/SuiteConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Company/VerifyWebsites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Company/VerifyWebsites.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,25 +37,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyWebsites">
-    <configuration name="AddDeleteElements" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BrokenImages.brokenImages">
+    <configuration name="XmlParameters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CallValues.XmlParameters" />
       <module name="InternetHeroKuApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Company.*" />
+          <option name="PATTERN" value="CallValues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Company" />
-      <option name="MAIN_CLASS_NAME" value="Company.AddDeleteElements" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrokenImages" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrokenImages.brokenImages" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InternetHeroKuApp" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +61,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="Company" />
       <option name="MAIN_CLASS_NAME" value="Company.BrokenImages" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="brokenImages" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyWebsites" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyWebsites (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InternetHeroKuApp" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VerifyWebsites" />
+        <item itemvalue="TestNG.BrokenImages.brokenImages" />
+        <item itemvalue="Application.XmlParameters" />
+        <item itemvalue="TestNG.VerifyWebsites (1)" />
         <item itemvalue="TestNG.StatusCodes" />
         <item itemvalue="TestNG.SortableTableData" />
-        <item itemvalue="TestNG.BrokenImages" />
-        <item itemvalue="TestNG.AddDeleteElements" />
       </list>
     </recent_temporary>
   </component>

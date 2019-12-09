@@ -30,6 +30,6 @@ public class BrokenImages extends SuiteConnection {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        check.assertTrue(imageLoaded, "Image is not properly load");
+        check.assertFalse(imageLoaded, "Image is not properly load");
     }
 }
